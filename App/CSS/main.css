@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+footer{
+			color: silver;
+			text-align:center;
+		}
+		.main-headers{
+			background-image: url(../img/fon.jpg);
+			background-position: center;
+			background-size: cover;
+		}
+
+.t1{
+	text-align: left;
+}
+
+h3{
+	border: 1px solid ;
+	color: black;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+li{
+	margin-top: 10px;
+}
+
+img{
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	opacity: 1;
+	transition: .5s;
+}
+
+img:hover{
+	opacity: 0.5;
+}
+
+body{
+	width: 70%;
+	margin: auto;
+}
+
+h1 , h2{
+	color: white;
+}
+
+.menu{	
+	width: 100%;
+	padding: 20px 0;
+	background-color: #DCDCDC;
+	margin-bottom: 30px;
+}
+
+.menu td{
+	text-align: center;
+	max-width: 50px;
+}
+
+.info{
+	margin-bottom: 25px;
+	background-color: white;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+html{
+	background-color: #DCDCDC;
+}
+
+button{
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.menu button:hover{
+	transform: scale(1.1);
+	transition: 0.7s;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.menu button:active{
+	background-color: black;
+}
+
+p{
+	font-family: 'Arimo', sans-serif;
+}
+
+.list1{
+	margin-bottom: 100px;
+}
+
+.t2{
+	font-size: 40px;
+}
+
+.t2:hover{
+	text-decoration: underline;
+}
+
+.t2:active{
+	font-weight: bold;
+}
+
+ul{
+	padding: 20px;
+}
+
+
+.t5{
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 25px;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.t5:hover{
+	transform: scale(1.1);
+	transition: 0.7s;
+	opacity: 0.7;
+}
+
+.t5:active{
+	background-color: black;
+	box-shadow: none;
